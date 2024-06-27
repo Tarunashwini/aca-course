@@ -12,8 +12,8 @@ resources:
 - repo: self
 
 variables:
-  IMAGE_NAME: houssemdocker/album-backend-api
-  CONTAINERAPPS_APP: album-backend-api
+  IMAGE_NAME: tarunashwini/album-backend-api
+  CONTAINERAPPS_APP: capp_album-backend-api
   CONTAINERAPPS_ENVIRONMENT: aca-environment
   RESOURCE_GROUP: rg-containerapps-azure-pipelines
   TAG: '$(Build.BuildId)'
